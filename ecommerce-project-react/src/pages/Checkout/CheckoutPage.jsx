@@ -10,10 +10,10 @@ export function CheckoutPage() {
       <title>Checkout</title>
 
       <CheckoutHeader />
-      <div class="checkout-page">
-        <div class="page-title">Review your order</div>
+      <div className="checkout-page">
+        <div className="page-title">Review your order</div>
 
-        <div class="checkout-grid">
+        <div className="checkout-grid">
           <OrderSummary />
           <PaymentSummary />
         </div>
