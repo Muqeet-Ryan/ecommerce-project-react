@@ -1,6 +1,5 @@
 import "./CheckoutPage.css";
 import { CheckoutHeader } from "./CheckoutHeader";
-import { OrderPage } from "./OrderPage";
 import { OrderSummary } from "./OrderSummary";
 import { PaymentSummary } from "./PaymentSummary";
 

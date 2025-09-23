@@ -1,3 +1,6 @@
+import { Link } from 'react-router';
+import './OrdersPage.css';
+
 export function OrdersPage(){
     return(
         <div className="orders-page">
@@ -46,11 +49,11 @@ export function OrdersPage(){
             </div>
 
             <div className="product-actions">
-              <a href="tracking.html">
+              <Link href="/tracking">
                 <button className="track-package-button button-secondary">
                   Track package
                 </button>
-              </a>
+              </Link>
             </div>
 
             <div className="product-image-container">
@@ -74,11 +77,11 @@ export function OrdersPage(){
             </div>
 
             <div className="product-actions">
-              <a href="tracking.html">
+              <Link to="/tracking">
                 <button className="track-package-button button-secondary">
                   Track package
                 </button>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -125,11 +128,11 @@ export function OrdersPage(){
             </div>
 
             <div className="product-actions">
-              <a href="tracking.html">
+              <Link to="/tracking">
                 <button className="track-package-button button-secondary">
                   Track package
                 </button>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
