@@ -21,7 +21,7 @@ fetchCartData();
     <Routes>
       <Route index   element={<HomePage />}  />
       <Route path='checkout' element={<CheckoutPage cart={cart} />} />
-      <Route path='orders' element={<OrdersPage />} />
+      <Route path='orders' element={<OrdersPage />} cart={cart}/>
 
     </Routes>
       
