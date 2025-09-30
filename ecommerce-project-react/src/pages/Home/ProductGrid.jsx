@@ -1,3 +1,5 @@
+import { formatMoney } from "../../utils/formatMoney";
+
 export function ProductsGrid({ products }) {
   return (
     <div className="products-grid">
@@ -22,7 +24,7 @@ export function ProductsGrid({ products }) {
               </div>
             </div>
 
-            <div className="product-price">{product.priceCents}</div>
+            <div className="product-price">{formatMoney(product.priceCents)}</div>
 
             <div className="product-quantity-container">
               <select>
